@@ -1,0 +1,16 @@
+.main {
+	height: 85%;
+}
+
+.main p {
+	color: #f55;
+	text-align: left;
+	font: bold 20px 'Papyrus';
+	padding: 5px;
+}
+
+img {
+	position: absolute;
+	top: 20%;
+	left: 25%;
+}

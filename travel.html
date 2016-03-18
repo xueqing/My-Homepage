@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/common.css">
+		<link rel="stylesheet" type="text/css" href="css/travel.css">
+		<title>Kiki-Traveller</title>
+	</head>
+	<body>
+		<div id="container">
+			<div class="header">
+				<div id="sign">
+					<h1>Traveller</h1>
+				</div>
+				<div id="nav">
+					<ul>
+						<li><a href="intro.html">Home</a></li>
+						<li><a href="code.html">Programming</a></li>
+						<li><a href="book.html">Reading</a></li>
+						<li><a href="comic.html">Animation</a></li>
+						<li><a href="travel.html">&gt&gtTravelling</a></li>
+					</ul>					
+				</div>
+			</div>
+			<div class="main" name="main" id="main">
+				<p>点击云南、山东、北京、内蒙古、河北和香港的省会城市有惊喜！</p>
+				<img src="travel/map/map3.jpg" usemap="china">
+				<map name="china" id="china">
+					<area shape="circ" coords="286, 399, 10" href="yunnan.html" alt="Yunnan" id="yn" onmouseover="displayPic('yn')" onmouseout="nonePic()" />
+					<area shape="circ" coords="454, 238, 10" href="shandong.html" alt="Shandong" id="sd" onmouseover="displayPic('sd')" onmouseout="nonePic()" />
+					<area shape="circ" coords="443, 194, 10" href="beijing.html" alt="Beijing" id="bj" onmouseover="displayPic('bj')" onmouseout="nonePic()" />
+					<area shape="circ" coords="393, 183, 10" href="neimenggu.html" alt="Neimenggu" id="nmg" onmouseover="displayPic('nmg')" onmouseout="nonePic()" />
+					<area shape="circ" coords="424, 221, 10" href="Hebei.html" alt="Hebei" id="hb" onmouseover="displayPic('hb')" onmouseout="nonePic()" />
+					<area shape="circ" coords="431, 439, 10" href="xianggang.html" alt="Xianggang" id="xg" onmouseover="displayPic('xg')" onmouseout="nonePic()" />
+				</map>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/travel.js"></script>
+	</body>
+</html>

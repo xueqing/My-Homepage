@@ -1,0 +1,40 @@
+h3 {
+	color: #70b;
+}
+
+body {
+	background: url("../book/0-0.jpg") no-repeat;
+	background-attachment: fixed;
+}
+
+button {
+	background-color: #555;
+	border-radius: 10px;
+	color: #fff;
+	font: 25px serif;
+}
+
+.main {
+	opacity: 0.8;
+	padding: 0 auto;
+	background-color: #ddd;
+}
+
+#list ul {
+	color: #f3c;
+	padding-left: 20px;
+	list-style-type: square;
+}
+
+#list li {
+	font: 18px Verdana;
+	max-width: 95%;
+	padding-top: 5px;
+}
+
+#foot {
+	color: #50f;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'cursive', sans-serif;
+}

@@ -1,0 +1,139 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* 设置body等通用默认样式 */
+html {
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+}
+
+/* 页面层容器 container，整个容器居中 */
+#container {
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+/* 设置头部、主体的高度以及背景色 */
+
+.header {
+	width: 100%;
+	height: 15%;
+	/*position: fixed;*/
+	background-size: cover;
+	/*background-attachment: fixed;*/
+	background: url("../bkg/3.jpg") no-repeat;
+}
+
+#sign {
+	float: left;
+	color: #f08;
+	width: 40%;
+	/*padding: 10px 20px;*/
+	position: absolute;
+	top: 2%;
+	left: 5%;
+	text-align: center;
+	font: 65px 'Rockwell';
+}
+
+#nav {
+	float: right;
+	display: block;
+	max-width: 60%;
+	padding-top: 60px;
+	padding-right: 80px;
+}
+
+#nav ul {
+	margin: 0;
+	list-style: none;
+}
+
+#nav li {
+	float: left;
+}
+
+#nav li:first-child a{
+	border-left: none;
+}
+
+#nav li:last-child a{
+	border-right: none;
+}
+
+#nav a {
+	color: #f48;
+	display: block;
+	padding: 0 20px;
+	font: bold 20px serif;
+	text-decoration: none;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
+	border-left: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+#nav a:hover {
+	background: #888;
+	box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.4);
+	border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.main {
+	clear: left;
+	display: block;
+}

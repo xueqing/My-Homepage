@@ -1,0 +1,46 @@
+body {
+	background: url("../bkg/8.jpg");
+}
+
+button {
+	background-color: #555;
+	border-radius: 10px;
+	color: #fff;
+	font: 25px serif;
+}
+
+.main li {
+	color: #a55;
+	list-style: circle;
+}
+
+.main h2 {
+	color: #f55;
+	text-align: left;
+	font: bold 20px 'Papyrus';
+}
+
+#left {
+	float: left;
+	clear: both;
+	width: 30%;
+	padding: 150px 25px;
+}
+
+#left p {
+	padding-top: 20px;
+	color: #c06;
+	font: 20px Verdana;
+}
+
+#right {
+	float: right;
+	max-width: 852px;
+	margin: 15px auto;
+}
+
+.gallery {
+	overflow-x: auto;
+	overflow-y: hidden;
+	white-space: nowrap;
+}
