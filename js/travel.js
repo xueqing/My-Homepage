@@ -3,8 +3,8 @@ var par = document.getElementById("main");
 function displayPic(objId){
 	var myImg = document.createElement("img");
 	myImg.id = ".img";
-	myImg.src = "travel/"+objId+"0.jpg";
-	if(objId==="yn") {
+	myImg.src = "travel/" + objId + ".jpg";
+	if(objId === "yn") {
 			myImg.style.position = "absolute";
 			myImg.style.top = "40%";
 			myImg.style.left = "0%";		
