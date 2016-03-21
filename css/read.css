@@ -1,12 +1,14 @@
-h3 {
-	color: #70b;
-}
-
+/* set the styles for h3/body */
 body {
 	background: url("../read/bkg.jpg") no-repeat;
 	background-attachment: fixed;
 }
 
+h2 {
+	color: #70b;
+}
+
+/* set the style for button */
 button {
 	background-color: #555;
 	border-radius: 10px;
@@ -14,6 +16,7 @@ button {
 	font: 25px serif;
 }
 
+/* set the styles for list/foot */
 .main {
 	opacity: 0.8;
 	padding: 0 auto;

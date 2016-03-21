@@ -1,3 +1,4 @@
+/* set the styles for body/li */
 body {
 	background: url("../program/bkg.jpg") no-repeat;
 	background-attachment: fixed;
@@ -7,51 +8,48 @@ li {
 	padding-top: 10px;
 }
 
+
+/* set the styles for mian/left/right */
 .main {
 	padding: 0 auto;
+	top: 20%;
 }
 
-#left {
+.main #left, #right {
+	position: absolute;
+	top: 20%
+}
+
+.main #left {
 	float: left;
 	width: 60%;
-	position: absolute;
-	top: 30%;
 	left: 5%;
-	padding-left: -100px;
 }
 
-#left p {
+.main #left p {
 	color: #ff0;
 	max-width: 80%;
-	font: 22px Tahoma;
+	font: 23px Tahoma;
 }
 
-#left ul {
+.main #left ul {
 	list-style-type: circle;
 }
 
-#skill {
-	font: 18px Verdana;
-}
-
-#skill h3 {
-	padding-top: 20px;
-	color: #ee0;
+#skill h1 {
+	font: bold 25px 'cursive';
+	padding-top: 15px;
+	color: #dd0;
 }
 
 #skill li, a {
+	font: 18px Verdana;
 	color: #ff7;
 }
 
-#skill h3 {
-	font-size: 20px;
-}
-
-#right {
+.main #right {
 	float: right;
-	width: 30%;
-	position: absolute;
-	top: 30%;
+	width: 40%;
 	right: 0%;
 }
 
@@ -59,12 +57,17 @@ li {
 	list-style-type: square;
 }
 
-#right h3 {
-	color: #ee3;
-	font: 30px 'cursive';
+#right h1 {
+	color: #dd0;
+	font: bold 25px 'cursive';
+}
+
+#right h1:nth-child(3){
+	padding-top: 15px;
 }
 
 #right a {
-	color: #ff6;
-	font: 20px 'cursive';
+	color: #ff7;
+	font: 18px Verdana;
+	padding-right: 10px;  
 }

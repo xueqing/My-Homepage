@@ -1,7 +1,9 @@
+/* set the background of body */
 body {
 	background: url("../bkg/bkg.jpg");
 }
 
+/* set the style for button */
 button {
 	background-color: #555;
 	border-radius: 10px;
@@ -9,6 +11,7 @@ button {
 	font: 25px serif;
 }
 
+/* set the styles for main/left/right */
 .main li {
 	color: #a55;
 	list-style: circle;
@@ -20,26 +23,27 @@ button {
 	font: bold 20px 'Papyrus';
 }
 
-#left {
+.main #left {
 	float: left;
 	clear: both;
 	width: 30%;
 	padding: 150px 25px;
 }
 
-#left p {
+.main #left p {
 	padding-top: 20px;
 	color: #c06;
 	font: 20px Verdana;
 }
 
-#right {
+.main #right {
 	float: right;
 	max-width: 852px;
 	margin: 15px auto;
 }
 
-.gallery {
+/* set the styles for gallery, the size of images has been adjusted before */
+#right .gallery {
 	overflow-x: auto;
 	overflow-y: hidden;
 	white-space: nowrap;

@@ -1,6 +1,6 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+/* 
+	This file clear some default styles and set 
+	a default style for all the elements.
 */
 
 html, body, div, span, applet, object, iframe,
@@ -23,6 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -52,7 +53,7 @@ table {
 	border-spacing: 0;
 }
 
-/* 设置body等通用默认样式 */
+/* set general default style for html/body */
 html {
 	height: 100%;
 }
@@ -62,29 +63,25 @@ body {
 	height: 100%;
 }
 
-/* 页面层容器 container，整个容器居中 */
+/* set the container in the center of the page */
 #container {
 	height: 100%;
 	display: block;
 	margin: 0 auto;
 }
 
-/* 设置头部、主体的高度以及背景色 */
-
+/* set the style for header(sign/nav)/main */
 .header {
 	width: 100%;
 	height: 15%;
-	/*position: fixed;*/
 	background-size: cover;
-	/*background-attachment: fixed;*/
 	background: url("../bkg/nav.jpg") no-repeat;
 }
 
-#sign {
+.header #sign {
 	float: left;
 	color: #f08;
 	width: 40%;
-	/*padding: 10px 20px;*/
 	position: absolute;
 	top: 2%;
 	left: 5%;
@@ -92,7 +89,7 @@ body {
 	font: 65px 'Rockwell';
 }
 
-#nav {
+.header #nav {
 	float: right;
 	display: block;
 	max-width: 60%;
@@ -100,24 +97,24 @@ body {
 	padding-right: 80px;
 }
 
-#nav ul {
+.header #nav ul {
 	margin: 0;
 	list-style: none;
 }
 
-#nav li {
+.header #nav li {
 	float: left;
 }
 
-#nav li:first-child a{
+.header #nav li:first-child a{
 	border-left: none;
 }
 
-#nav li:last-child a{
+.header #nav li:last-child a{
 	border-right: none;
 }
 
-#nav a {
+.header #nav a {
 	color: #f48;
 	display: block;
 	padding: 0 20px;
@@ -127,7 +124,7 @@ body {
 	border-left: 1px solid rgba(0, 0, 0, 0.5);
 }
 
-#nav a:hover {
+.header #nav a:hover {
 	background: #888;
 	box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.4);
 	border-right: 1px solid rgba(0, 0, 0, 0.2);
