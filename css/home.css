@@ -14,7 +14,7 @@ button {
 }
 
 /* set the styles for left/right content */
-.main #left {
+#left {
 	float: left;
 	width: 70%;
 	position: absolute;
@@ -22,13 +22,13 @@ button {
 	margin-top: -150px;
 }
 
-.main #left h1 {
+#left h1 {
 	color: #f7f;
 	text-align: center;
 	font: bold 50px 'cursive';
 }
 
-.main #left p{
+#left p{
 	color: #f3e;
 	max-width: 85%;
 	margin: 0 auto;
@@ -36,12 +36,12 @@ button {
 	font: 20px Verdana;
 }
 
-.main #left a {
+#left a {
 	color: #70f;
 	font: bold 22px 'cursive';
 }
 
-.main #right {
+#right {
 	float: right;
 	position: absolute;
 	top: 50%;

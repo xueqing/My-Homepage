@@ -78,7 +78,7 @@ body {
 	background: url("../bkg/nav.jpg") no-repeat;
 }
 
-.header #sign {
+#sign {
 	float: left;
 	color: #f08;
 	width: 40%;
@@ -89,7 +89,7 @@ body {
 	font: 65px 'Rockwell';
 }
 
-.header #nav {
+#nav {
 	float: right;
 	display: block;
 	max-width: 60%;
@@ -97,24 +97,24 @@ body {
 	padding-right: 80px;
 }
 
-.header #nav ul {
+#nav ul {
 	margin: 0;
 	list-style: none;
 }
 
-.header #nav li {
+#nav li {
 	float: left;
 }
 
-.header #nav li:first-child a{
+#nav li:first-child a{
 	border-left: none;
 }
 
-.header #nav li:last-child a{
+#nav li:last-child a{
 	border-right: none;
 }
 
-.header #nav a {
+#nav a {
 	color: #f48;
 	display: block;
 	padding: 0 20px;
@@ -124,7 +124,7 @@ body {
 	border-left: 1px solid rgba(0, 0, 0, 0.5);
 }
 
-.header #nav a:hover {
+#nav a:hover {
 	background: #888;
 	box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.4);
 	border-right: 1px solid rgba(0, 0, 0, 0.2);

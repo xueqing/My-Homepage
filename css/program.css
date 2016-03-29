@@ -15,24 +15,24 @@ li {
 	top: 20%;
 }
 
-.main #left, #right {
+#left, #right {
 	position: absolute;
 	top: 20%
 }
 
-.main #left {
+#left {
 	float: left;
 	width: 60%;
 	left: 5%;
 }
 
-.main #left p {
+#left p {
 	color: #ff0;
 	max-width: 80%;
 	font: 23px Tahoma;
 }
 
-.main #left ul {
+#left ul {
 	list-style-type: circle;
 }
 
@@ -47,7 +47,7 @@ li {
 	color: #ff7;
 }
 
-.main #right {
+#right {
 	float: right;
 	width: 40%;
 	right: 0%;
